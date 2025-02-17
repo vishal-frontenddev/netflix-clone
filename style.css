@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.header-image {
+    height: 100vh;
+    width: 100%;
+    background-image: url(header-image.png);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.header {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.671);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav {
+    height: 70px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    margin-top: 10px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 300px;
+}
+.logo img {
+    height: 40px;
+    width: 148px;
+    /* object-fit: cover; */
+}
+.logo-left {
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: center;  
+    gap: 10px;
+}
+select {
+    padding: 0px 10px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.815);
+    color: #fff;
+    border-radius: 5px;
+}
+.sign-in {
+
+    padding: 0px 12px;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.938);
+}
+.sign-in:hover {
+    background-color: rgba(255, 0, 0, 0.795);
+}
+
+
+/* content */
+
+.content {
+    height: 500px;
+    width: 800px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+}
+
+.content h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+ }
+.content h4 {
+    color: #fff;
+    font-size: 20px;
+ }
+.content p {
+    font-size: 17px;
+    color: #fff;
+    margin-top: 20px;
+ }
+
+.btns {
+    height: 70px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.email {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.email input{
+    width: 380px;
+    height: 56px;
+    background: transparent;
+    border: 1px solid red;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    padding: 0px 10px;
+}
+
+.email input:active{
+    outline: none;
+    color: #FFF;
+
+}
+.email p {
+    color: #a7a4a4;
+    margin: 0;
+}
+.get-started {
+    height: 56px;
+    width: 210px;
+    background-color: hwb(0 0% 0% / 0.897);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+.get-started:hover {
+    background-color:  rgba(255, 0, 0, 0.774);
+}
+
+/* header-end */
+
+
+/* page2-start */
+
+.page2 {
+    height: 70vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.973);
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.page2-main {
+    height: 100%;
+    width: 80%;
+    
+  
+}
+.page2-header {
+    height: 120px;
+    width: 100%;
+
+}
+.trending {
+    height: 50px;
+    width: 200px;
+    margin-top: 50px;
+    color: #fff;
+}
+.btn {
+    height: 70px;
+    width: 300px;
+    
+    display: flex;
+    gap: 20px;
+}
+.india {
+  height: 50px;
+  width: 100px;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 2px solid rgba(167, 161, 161, 0.205);
+}
+.india p, i {
+    font-size: 18px;
+    color: #fff;
+}
+
+.section {
+    height: 280px;
+    width: 95%;
+
+    margin-left: 30px;
+    display: flex;
+    gap: 40px;
+}
+.box {
+    height: 100%;
+    width: 230px;
+    background-color: blue;
+    border-radius: 10px;
+    position: relative;
+}
+.box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition:  2s;
+}
+.box {
+    overflow: hidden;
+}
+.box:hover img {
+    transform: scale(1.1);
+}
+.recently {
+    height: 30px;
+    width: 160px;
+    background-color: rgba(255, 0, 0, 0.959);
+    position: absolute;
+    bottom: 0.5px;
+    left: 35px;
+}
+.recently h3 {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+/* page2-end */
+
+
+
+/* page3-start */
+
+
+.page3{
+    height: 65vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.973);
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.page3-main {
+    height: 100%;
+    width: 80%;
+}
+.page3-header {
+    height: 50px;
+    width: 400px;
+    margin-top: 50px;
+    font-size: 17px;
+    color: #fff;
+    padding-top: 8px;
+}
+
+.container {
+    height: 320px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.page3-box {
+    height: 100%;
+    width: 300px;
+    border-radius: 17px;
+    background-image: linear-gradient( 85.2deg,  rgba(33,3,40,1) 7.5%, rgba(65,5,72,1) 88.7% );
+}
+.page3-box h2 {
+    color: #fff;
+    margin: 30px 0px;
+    padding: 0px 17px;
+}
+.page3-box p {
+    font-size: 17px;
+    color: #ffffff91;
+    padding: 0px 17px;
+}
+
+/* page3-end */
+
+
+
+
+
+
+
+
+
+/* page4-start */
+
+
+.page4 {
+    height: 200vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.973);
+    display: flex;
+    justify-content: center;
+}
+.page4-main {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.page4-header-main {
+    height: 85px;
+    width: 100%;
+}
+.page4-header-main h2 {
+    color: #fff;
+    margin-top: 43px;
+    padding: 0px 5px;
+}
+
+.page4-header {
+   width: 100%;
+   height: 525px;
+}
+.page4-header section {
+    height: 100%;
+    width: 100%;
+}
+.page4-header details {
+    width: 100%;
+    margin: 8px 0px;
+}
+.page4-header section summary {
+    padding: 30px;
+    color: #fff;
+    background: #2d2e2e;
+    position: relative;
+    list-style: none;
+    outline: none ;
+    cursor: pointer;
+    font-size: 23px;
+}
+.page4-header section details p {
+    font-size: 23px;
+    padding: 25px;
+    color: #fff;
+    margin: 2px 0px;
+    background: #2d2e2e;
+}
+.page4-header section details summary::after {
+    content: '+';
+    position: absolute;
+    top: 15px; right: 15px;
+    font-weight: 100;
+    font-size: 50px;
+    color: #fff;
+    transition: all;
+}
+.page4-header section details summary:hover::after {
+    transform: rotate(135deg);
+}
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+@media (min-width: 400px) and (max-width: 700px) {
+  .header-image {
+    height: auto;
+  }
+   nav{
+    width: 100%;
+    justify-content: space-around;  
+   }
+    
+   .logo{
+    height: auto;
+    width: fit-content;
+   }
+
+   .logo-left{
+    width: fit-content;
+   }
+
+   .logo img{
+    height: 35px;
+    width: 100px;
+   }
+
+   .sign-in{
+    padding: 0px 8px;
+    
+   }
+
+   .language{
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   }
+   .language span{
+    display: none;
+   }
+
+   .content{
+    margin-top: 0px;
+    height: 450px;
+   }
+
+   .content h1{
+     font-size: 30px;
+   }
+
+   .content h4{
+    font-size: 16px;
+   }
+
+   .content p{
+    text-align: center;
+    width: 330px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0px;
+   }
+
+   .btns{
+    padding: 0px 0px;
+    width: 100%;
+    margin-top: 20px;
+    height: auto;
+    flex-direction: column;
+   }
+   .email{
+    padding: 0px;
+   }
+   .email input{
+     width: 340px;
+     height: 46px;
+   }
+
+   .get-started{
+     height: 50px;
+     width: 160px;
+     font-size: 16px;
+   }
+
+   /* header-end */
+
+
+   /* page2-start */
+
+   .page2 {
+      height: auto;
+   }
+
+   .page2-btn {
+     flex-direction: column;
+   }
+   
+
+
+
+   /* page3-start */
+
+   .page3-box {
+    flex-direction: column;
+   }
+}
